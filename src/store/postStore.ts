@@ -21,21 +21,21 @@ export const usePostStore = create<PostState>((set, get) => ({
       author: "Theresa Webb",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      createdAt: new Date(Date.now() - 1000 * 60 * 15), // 15 minutes ago
+      createdAt: new Date(Date.now() - 1000 * 60 * 15), 
     },
     {
       id: "2",
       author: "John Doe",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      createdAt: new Date(Date.now() - 1000 * 60 * 60 * 3), // 3 hours ago
+      createdAt: new Date(Date.now() - 1000 * 60 * 60 * 3), 
     },
     {
       id: "3",
       author: "Jane Doe",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      createdAt: new Date(Date.now() - 1000 * 60 * 60 * 24), // 1 day ago
+      createdAt: new Date(Date.now() - 1000 * 60 * 60 * 24),
     },
   ],
   likedPostIds: ["1"],
