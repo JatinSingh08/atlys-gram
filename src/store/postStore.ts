@@ -14,7 +14,7 @@ interface PostState {
   toggleLike: (postId: string) => void;
 }
 
-export const usePostStore = create<PostState>((set, get) => ({
+export const usePostStore = create<PostState>((set) => ({
   posts: [
     {
       id: "1",
